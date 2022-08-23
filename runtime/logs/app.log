@@ -1,0 +1,1637 @@
+2022-08-21 14:42:36 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key 0 in /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseUrl.php:99
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseUrl.php(99): yii\base\ErrorHandler->handleError(2, 'Undefined array...', '/Users/himanshu...', 99)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseUrl.php(214): yii\helpers\BaseUrl::toRoute(Array, false)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php(419): yii\helpers\BaseUrl::to(Array)
+#3 /Users/himanshu/basic/views/site/home.php(90): yii\helpers\BaseHtml::a('view', Array)
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(347): require('/Users/himanshu...')
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/Users/himanshu...', Array)
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Users/himanshu...', Array, Object(app\controllers\SiteController))
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('home', Array, Object(app\controllers\SiteController))
+#8 /Users/himanshu/basic/controllers/SiteController.php(64): yii\base\Controller->render('home')
+#9 [internal function]: app\controllers\SiteController->actionIndex()
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#16 {main}
+2022-08-21 14:42:36 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51519'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/basic/Yii2-CRUD-Operation-master'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PATH_INFO' => '/basic/Yii2-CRUD-Operation-master'
+    'PHP_SELF' => '/index.php/basic/Yii2-CRUD-Operation-master'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1661092956.6178
+    'REQUEST_TIME' => 1661092956
+]
+2022-08-21 14:46:29 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key 0 in /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseUrl.php:99
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseUrl.php(99): yii\base\ErrorHandler->handleError(2, 'Undefined array...', '/Users/himanshu...', 99)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseUrl.php(214): yii\helpers\BaseUrl::toRoute(Array, false)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php(419): yii\helpers\BaseUrl::to(Array)
+#3 /Users/himanshu/basic/views/site/home.php(19): yii\helpers\BaseHtml::a('view', Array)
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(347): require('/Users/himanshu...')
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/Users/himanshu...', Array)
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Users/himanshu...', Array, Object(app\controllers\SiteController))
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('home', Array, Object(app\controllers\SiteController))
+#8 /Users/himanshu/basic/controllers/SiteController.php(64): yii\base\Controller->render('home')
+#9 [internal function]: app\controllers\SiteController->actionIndex()
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#16 {main}
+2022-08-21 14:46:29 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51534'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/basic/Yii2-CRUD-Operation-master'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PATH_INFO' => '/basic/Yii2-CRUD-Operation-master'
+    'PHP_SELF' => '/index.php/basic/Yii2-CRUD-Operation-master'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1661093189.6225
+    'REQUEST_TIME' => 1661093189
+]
+2022-08-21 14:46:45 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key 0 in /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseUrl.php:99
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseUrl.php(99): yii\base\ErrorHandler->handleError(2, 'Undefined array...', '/Users/himanshu...', 99)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseUrl.php(214): yii\helpers\BaseUrl::toRoute(Array, false)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php(419): yii\helpers\BaseUrl::to(Array)
+#3 /Users/himanshu/basic/views/site/home.php(19): yii\helpers\BaseHtml::a('view', Array)
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(347): require('/Users/himanshu...')
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/Users/himanshu...', Array)
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Users/himanshu...', Array, Object(app\controllers\SiteController))
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('home', Array, Object(app\controllers\SiteController))
+#8 /Users/himanshu/basic/controllers/SiteController.php(64): yii\base\Controller->render('home')
+#9 [internal function]: app\controllers\SiteController->actionIndex()
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#16 {main}
+2022-08-21 14:46:45 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '51538'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/basic/Yii2-CRUD-Operation-master'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PATH_INFO' => '/basic/Yii2-CRUD-Operation-master'
+    'PHP_SELF' => '/index.php/basic/Yii2-CRUD-Operation-master'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1661093205.2731
+    'REQUEST_TIME' => 1661093205
+]
+2022-08-22 13:51:25 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][Error] Error: Class "yii\db\ActiveRecords" not found in /Users/himanshu/basic/models/Posts.php:7
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/BaseYii.php(293): include()
+#1 /Users/himanshu/basic/controllers/SiteController.php(65): yii\BaseYii::autoload('app\\models\\Post...')
+#2 [internal function]: app\controllers\SiteController->actionIndex()
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2022-08-22 13:51:25 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '52722'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/basic/Yii2-CRUD-Operation-master'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PATH_INFO' => '/basic/Yii2-CRUD-Operation-master'
+    'PHP_SELF' => '/index.php/basic/Yii2-CRUD-Operation-master'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1661176285.3185
+    'REQUEST_TIME' => 1661176285
+]
+2022-08-22 13:52:28 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php:722
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(722): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1067): yii\db\Connection->open()
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 /Users/himanshu/basic/vendor/yiisoft/yii2/db/QueryBuilder.php(116): yii\base\BaseObject->__construct(Array)
+#9 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(217): yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Schema.php(247): yii\db\mysql\Schema->createQueryBuilder()
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(884): yii\db\Schema->getQueryBuilder()
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Query.php(249): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#15 /Users/himanshu/basic/controllers/SiteController.php(65): yii\db\ActiveQuery->all()
+#16 [internal function]: app\controllers\SiteController->actionIndex()
+#17 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#18 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#19 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#20 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#21 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php:648
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1067): yii\db\Connection->open()
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/db/QueryBuilder.php(116): yii\base\BaseObject->__construct(Array)
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(217): yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#8 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Schema.php(247): yii\db\mysql\Schema->createQueryBuilder()
+#9 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(884): yii\db\Schema->getQueryBuilder()
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Query.php(249): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#13 /Users/himanshu/basic/controllers/SiteController.php(65): yii\db\ActiveQuery->all()
+#14 [internal function]: app\controllers\SiteController->actionIndex()
+#15 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#18 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#19 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1045
+    [2] => Access denied for user 'root'@'localhost' (using password: NO)
+)
+
+2022-08-22 13:52:28 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '52726'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/basic/Yii2-CRUD-Operation-master'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PATH_INFO' => '/basic/Yii2-CRUD-Operation-master'
+    'PHP_SELF' => '/index.php/basic/Yii2-CRUD-Operation-master'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1661176348.7523
+    'REQUEST_TIME' => 1661176348
+]
+2022-08-22 14:01:49 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php:722
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(722): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1067): yii\db\Connection->open()
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 /Users/himanshu/basic/vendor/yiisoft/yii2/db/QueryBuilder.php(116): yii\base\BaseObject->__construct(Array)
+#9 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(217): yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Schema.php(247): yii\db\mysql\Schema->createQueryBuilder()
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(884): yii\db\Schema->getQueryBuilder()
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Query.php(249): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#15 /Users/himanshu/basic/controllers/SiteController.php(65): yii\db\ActiveQuery->all()
+#16 [internal function]: app\controllers\SiteController->actionIndex()
+#17 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#18 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#19 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#20 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#21 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php:648
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1067): yii\db\Connection->open()
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/db/QueryBuilder.php(116): yii\base\BaseObject->__construct(Array)
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(217): yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#8 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Schema.php(247): yii\db\mysql\Schema->createQueryBuilder()
+#9 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(884): yii\db\Schema->getQueryBuilder()
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Query.php(249): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#13 /Users/himanshu/basic/controllers/SiteController.php(65): yii\db\ActiveQuery->all()
+#14 [internal function]: app\controllers\SiteController->actionIndex()
+#15 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#18 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#19 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1045
+    [2] => Access denied for user 'root'@'localhost' (using password: NO)
+)
+
+2022-08-22 14:01:49 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '52752'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/basic/Yii2-CRUD-Operation-master'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PATH_INFO' => '/basic/Yii2-CRUD-Operation-master'
+    'PHP_SELF' => '/index.php/basic/Yii2-CRUD-Operation-master'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1661176909.9557
+    'REQUEST_TIME' => 1661176909
+]
+2022-08-22 14:01:51 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php:722
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(722): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1067): yii\db\Connection->open()
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 /Users/himanshu/basic/vendor/yiisoft/yii2/db/QueryBuilder.php(116): yii\base\BaseObject->__construct(Array)
+#9 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(217): yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Schema.php(247): yii\db\mysql\Schema->createQueryBuilder()
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(884): yii\db\Schema->getQueryBuilder()
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Query.php(249): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#15 /Users/himanshu/basic/controllers/SiteController.php(65): yii\db\ActiveQuery->all()
+#16 [internal function]: app\controllers\SiteController->actionIndex()
+#17 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#18 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#19 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#20 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#21 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php:648
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1067): yii\db\Connection->open()
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/db/QueryBuilder.php(116): yii\base\BaseObject->__construct(Array)
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(217): yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#8 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Schema.php(247): yii\db\mysql\Schema->createQueryBuilder()
+#9 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(884): yii\db\Schema->getQueryBuilder()
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Query.php(249): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#13 /Users/himanshu/basic/controllers/SiteController.php(65): yii\db\ActiveQuery->all()
+#14 [internal function]: app\controllers\SiteController->actionIndex()
+#15 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#18 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#19 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1045
+    [2] => Access denied for user 'root'@'localhost' (using password: NO)
+)
+
+2022-08-22 14:01:50 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '52754'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/basic/Yii2-CRUD-Operation-master'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PATH_INFO' => '/basic/Yii2-CRUD-Operation-master'
+    'PHP_SELF' => '/index.php/basic/Yii2-CRUD-Operation-master'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1661176910.9942
+    'REQUEST_TIME' => 1661176910
+]
+2022-08-22 14:01:51 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php:722
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(722): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1067): yii\db\Connection->open()
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 /Users/himanshu/basic/vendor/yiisoft/yii2/db/QueryBuilder.php(116): yii\base\BaseObject->__construct(Array)
+#9 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(217): yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Schema.php(247): yii\db\mysql\Schema->createQueryBuilder()
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(884): yii\db\Schema->getQueryBuilder()
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Query.php(249): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#15 /Users/himanshu/basic/controllers/SiteController.php(65): yii\db\ActiveQuery->all()
+#16 [internal function]: app\controllers\SiteController->actionIndex()
+#17 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#18 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#19 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#20 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#21 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php:648
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1067): yii\db\Connection->open()
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/db/QueryBuilder.php(116): yii\base\BaseObject->__construct(Array)
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(217): yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#8 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Schema.php(247): yii\db\mysql\Schema->createQueryBuilder()
+#9 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(884): yii\db\Schema->getQueryBuilder()
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Query.php(249): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#13 /Users/himanshu/basic/controllers/SiteController.php(65): yii\db\ActiveQuery->all()
+#14 [internal function]: app\controllers\SiteController->actionIndex()
+#15 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#18 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#19 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1045
+    [2] => Access denied for user 'root'@'localhost' (using password: NO)
+)
+
+2022-08-22 14:01:51 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '52756'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/basic/Yii2-CRUD-Operation-master'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PATH_INFO' => '/basic/Yii2-CRUD-Operation-master'
+    'PHP_SELF' => '/index.php/basic/Yii2-CRUD-Operation-master'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1661176911.7692
+    'REQUEST_TIME' => 1661176911
+]
+2022-08-22 19:34:34 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php:722
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(722): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1067): yii\db\Connection->open()
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 /Users/himanshu/basic/vendor/yiisoft/yii2/db/QueryBuilder.php(116): yii\base\BaseObject->__construct(Array)
+#9 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(217): yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Schema.php(247): yii\db\mysql\Schema->createQueryBuilder()
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(884): yii\db\Schema->getQueryBuilder()
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Query.php(249): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#15 /Users/himanshu/basic/controllers/SiteController.php(65): yii\db\ActiveQuery->all()
+#16 [internal function]: app\controllers\SiteController->actionIndex()
+#17 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#18 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#19 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#20 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#21 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php:648
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1067): yii\db\Connection->open()
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/db/QueryBuilder.php(116): yii\base\BaseObject->__construct(Array)
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/db/mysql/Schema.php(217): yii\db\QueryBuilder->__construct(Object(yii\db\Connection))
+#8 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Schema.php(247): yii\db\mysql\Schema->createQueryBuilder()
+#9 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Connection.php(884): yii\db\Schema->getQueryBuilder()
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/db/Query.php(249): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#13 /Users/himanshu/basic/controllers/SiteController.php(65): yii\db\ActiveQuery->all()
+#14 [internal function]: app\controllers\SiteController->actionIndex()
+#15 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#17 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#18 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#19 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1045
+    [2] => Access denied for user 'root'@'localhost' (using password: NO)
+)
+
+2022-08-22 19:34:34 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54252'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/basic/Yii2-CRUD-Operation-master'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PATH_INFO' => '/basic/Yii2-CRUD-Operation-master'
+    'PHP_SELF' => '/index.php/basic/Yii2-CRUD-Operation-master'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1661196874.4211
+    'REQUEST_TIME' => 1661196874
+]
+2022-08-22 19:38:52 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][ParseError] ParseError: syntax error, unexpected token ":", expecting ";" in /Users/himanshu/basic/views/site/home.php:43
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/Users/himanshu...', Array)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Users/himanshu...', Array, Object(app\controllers\SiteController))
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('home', Array, Object(app\controllers\SiteController))
+#3 /Users/himanshu/basic/controllers/SiteController.php(66): yii\base\Controller->render('home', Array)
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('', Array)
+#8 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#9 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2022-08-22 19:38:52 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54271'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/basic/Yii2-CRUD-Operation-master'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PATH_INFO' => '/basic/Yii2-CRUD-Operation-master'
+    'PHP_SELF' => '/index.php/basic/Yii2-CRUD-Operation-master'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1661197132.7556
+    'REQUEST_TIME' => 1661197132
+]
+2022-08-22 19:48:25 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/create in /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php:149
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('create', Array)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/create', Array)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2022-08-22 19:48:25 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = [
+    'r' => 'site/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54363'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fcreate'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fcreate'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_REFERER' => 'http://localhost:8080/basic/Yii2-CRUD-Operation-master'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'REQUEST_TIME_FLOAT' => 1661197705.3485
+    'REQUEST_TIME' => 1661197705
+]
+2022-08-22 20:39:32 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/home in /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php:149
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('home', Array)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/home', Array)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2022-08-22 20:39:32 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = [
+    'r' => 'site/home'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'message' => -1
+    ]
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+    'message' => 'Data Submitted Successfully'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54722'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fhome'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fhome'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=site%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'REQUEST_TIME_FLOAT' => 1661200772.0249
+    'REQUEST_TIME' => 1661200772
+]
+2022-08-22 20:50:25 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\base\ErrorException:256] yii\base\ErrorException: Exception 'yii\base\InvalidArgumentException' with message 'Attribute name must contain word characters only.' 
+
+in /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php:2233
+
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(929): yii\helpers\BaseHtml::getAttributeName('Todo Item Name')
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(405): yii\widgets\ActiveField->addAriaAttributes(Array)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(207): yii\widgets\ActiveField->textInput()
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(176): yii\widgets\ActiveField->render()
+#4 /Users/himanshu/basic/views/site/create.php(20): yii\widgets\ActiveField->__toString()
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(347): require('/Users/himanshu...')
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/Users/himanshu...', Array)
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Users/himanshu...', Array, Object(app\controllers\SiteController))
+#8 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\SiteController))
+#9 /Users/himanshu/basic/controllers/SiteController.php(82): yii\base\Controller->render('create', Array)
+#10 [internal function]: app\controllers\SiteController->actionCreate()
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('create', Array)
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/create', Array)
+#15 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#17 {main} in /Users/himanshu/basic/vendor/yiisoft/yii2/base/ErrorHandler.php:384
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception 'yii\\...', '/Users/himanshu...', 384)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/base/ErrorHandler.php(384): trigger_error('Exception 'yii\\...', 256)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(178): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\InvalidArgumentException))
+#3 /Users/himanshu/basic/views/site/create.php(20): yii\widgets\ActiveField->__toString()
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(347): require('/Users/himanshu...')
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/Users/himanshu...', Array)
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Users/himanshu...', Array, Object(app\controllers\SiteController))
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\SiteController))
+#8 /Users/himanshu/basic/controllers/SiteController.php(82): yii\base\Controller->render('create', Array)
+#9 [internal function]: app\controllers\SiteController->actionCreate()
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('create', Array)
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/create', Array)
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#16 {main}
+2022-08-22 20:50:25 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = [
+    'r' => 'site/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54831'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fcreate'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fcreate'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'REQUEST_TIME_FLOAT' => 1661201425.1583
+    'REQUEST_TIME' => 1661201425
+]
+2022-08-22 20:50:40 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\base\ErrorException:256] yii\base\ErrorException: Exception 'yii\base\InvalidArgumentException' with message 'Attribute name must contain word characters only.' 
+
+in /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php:2233
+
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(929): yii\helpers\BaseHtml::getAttributeName('Todo Item Name')
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(405): yii\widgets\ActiveField->addAriaAttributes(Array)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(207): yii\widgets\ActiveField->textInput()
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(176): yii\widgets\ActiveField->render()
+#4 /Users/himanshu/basic/views/site/create.php(20): yii\widgets\ActiveField->__toString()
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(347): require('/Users/himanshu...')
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/Users/himanshu...', Array)
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Users/himanshu...', Array, Object(app\controllers\SiteController))
+#8 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\SiteController))
+#9 /Users/himanshu/basic/controllers/SiteController.php(82): yii\base\Controller->render('create', Array)
+#10 [internal function]: app\controllers\SiteController->actionCreate()
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('create', Array)
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/create', Array)
+#15 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#17 {main} in /Users/himanshu/basic/vendor/yiisoft/yii2/base/ErrorHandler.php:384
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception 'yii\\...', '/Users/himanshu...', 384)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/base/ErrorHandler.php(384): trigger_error('Exception 'yii\\...', 256)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(178): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\InvalidArgumentException))
+#3 /Users/himanshu/basic/views/site/create.php(20): yii\widgets\ActiveField->__toString()
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(347): require('/Users/himanshu...')
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/Users/himanshu...', Array)
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Users/himanshu...', Array, Object(app\controllers\SiteController))
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\SiteController))
+#8 /Users/himanshu/basic/controllers/SiteController.php(82): yii\base\Controller->render('create', Array)
+#9 [internal function]: app\controllers\SiteController->actionCreate()
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('create', Array)
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/create', Array)
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#16 {main}
+2022-08-22 20:50:40 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = [
+    'r' => 'site/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54833'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fcreate'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fcreate'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1661201440.1494
+    'REQUEST_TIME' => 1661201440
+]
+2022-08-22 20:50:46 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\base\ErrorException:256] yii\base\ErrorException: Exception 'yii\base\InvalidArgumentException' with message 'Attribute name must contain word characters only.' 
+
+in /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php:2233
+
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(929): yii\helpers\BaseHtml::getAttributeName('Todo Item Name')
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(405): yii\widgets\ActiveField->addAriaAttributes(Array)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(207): yii\widgets\ActiveField->textInput()
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(176): yii\widgets\ActiveField->render()
+#4 /Users/himanshu/basic/views/site/create.php(20): yii\widgets\ActiveField->__toString()
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(347): require('/Users/himanshu...')
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/Users/himanshu...', Array)
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Users/himanshu...', Array, Object(app\controllers\SiteController))
+#8 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\SiteController))
+#9 /Users/himanshu/basic/controllers/SiteController.php(82): yii\base\Controller->render('create', Array)
+#10 [internal function]: app\controllers\SiteController->actionCreate()
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('create', Array)
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/create', Array)
+#15 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#17 {main} in /Users/himanshu/basic/vendor/yiisoft/yii2/base/ErrorHandler.php:384
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception 'yii\\...', '/Users/himanshu...', 384)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/base/ErrorHandler.php(384): trigger_error('Exception 'yii\\...', 256)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(178): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\InvalidArgumentException))
+#3 /Users/himanshu/basic/views/site/create.php(20): yii\widgets\ActiveField->__toString()
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(347): require('/Users/himanshu...')
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/Users/himanshu...', Array)
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Users/himanshu...', Array, Object(app\controllers\SiteController))
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\SiteController))
+#8 /Users/himanshu/basic/controllers/SiteController.php(82): yii\base\Controller->render('create', Array)
+#9 [internal function]: app\controllers\SiteController->actionCreate()
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('create', Array)
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/create', Array)
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#16 {main}
+2022-08-22 20:50:46 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = [
+    'r' => 'site/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54835'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fcreate'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fcreate'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'REQUEST_TIME_FLOAT' => 1661201446.2605
+    'REQUEST_TIME' => 1661201446
+]
+2022-08-22 20:51:19 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\base\ErrorException:256] yii\base\ErrorException: Exception 'yii\base\InvalidArgumentException' with message 'Attribute name must contain word characters only.' 
+
+in /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php:2233
+
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(929): yii\helpers\BaseHtml::getAttributeName('Todo Item Name')
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(405): yii\widgets\ActiveField->addAriaAttributes(Array)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(207): yii\widgets\ActiveField->textInput()
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(176): yii\widgets\ActiveField->render()
+#4 /Users/himanshu/basic/views/site/create.php(20): yii\widgets\ActiveField->__toString()
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(347): require('/Users/himanshu...')
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/Users/himanshu...', Array)
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Users/himanshu...', Array, Object(app\controllers\SiteController))
+#8 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\SiteController))
+#9 /Users/himanshu/basic/controllers/SiteController.php(82): yii\base\Controller->render('create', Array)
+#10 [internal function]: app\controllers\SiteController->actionCreate()
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('create', Array)
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/create', Array)
+#15 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#17 {main} in /Users/himanshu/basic/vendor/yiisoft/yii2/base/ErrorHandler.php:384
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception 'yii\\...', '/Users/himanshu...', 384)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/base/ErrorHandler.php(384): trigger_error('Exception 'yii\\...', 256)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(178): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\InvalidArgumentException))
+#3 /Users/himanshu/basic/views/site/create.php(20): yii\widgets\ActiveField->__toString()
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(347): require('/Users/himanshu...')
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/Users/himanshu...', Array)
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Users/himanshu...', Array, Object(app\controllers\SiteController))
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\SiteController))
+#8 /Users/himanshu/basic/controllers/SiteController.php(82): yii\base\Controller->render('create', Array)
+#9 [internal function]: app\controllers\SiteController->actionCreate()
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('create', Array)
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/create', Array)
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#16 {main}
+2022-08-22 20:51:19 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = [
+    'r' => 'site/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54869'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fcreate'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fcreate'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'REQUEST_TIME_FLOAT' => 1661201479.6232
+    'REQUEST_TIME' => 1661201479
+]
+2022-08-22 20:52:18 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\base\ErrorException:256] yii\base\ErrorException: Exception 'yii\base\InvalidArgumentException' with message 'Attribute name must contain word characters only.' 
+
+in /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php:2233
+
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(929): yii\helpers\BaseHtml::getAttributeName('Todo Item Name')
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(405): yii\widgets\ActiveField->addAriaAttributes(Array)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(207): yii\widgets\ActiveField->textInput()
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(176): yii\widgets\ActiveField->render()
+#4 /Users/himanshu/basic/views/site/create.php(20): yii\widgets\ActiveField->__toString()
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(347): require('/Users/himanshu...')
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/Users/himanshu...', Array)
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Users/himanshu...', Array, Object(app\controllers\SiteController))
+#8 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\SiteController))
+#9 /Users/himanshu/basic/controllers/SiteController.php(82): yii\base\Controller->render('create', Array)
+#10 [internal function]: app\controllers\SiteController->actionCreate()
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('create', Array)
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/create', Array)
+#15 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#17 {main} in /Users/himanshu/basic/vendor/yiisoft/yii2/base/ErrorHandler.php:384
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception 'yii\\...', '/Users/himanshu...', 384)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/base/ErrorHandler.php(384): trigger_error('Exception 'yii\\...', 256)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(178): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\InvalidArgumentException))
+#3 /Users/himanshu/basic/views/site/create.php(20): yii\widgets\ActiveField->__toString()
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(347): require('/Users/himanshu...')
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/Users/himanshu...', Array)
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Users/himanshu...', Array, Object(app\controllers\SiteController))
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\SiteController))
+#8 /Users/himanshu/basic/controllers/SiteController.php(82): yii\base\Controller->render('create', Array)
+#9 [internal function]: app\controllers\SiteController->actionCreate()
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('create', Array)
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/create', Array)
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#16 {main}
+2022-08-22 20:52:18 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = [
+    'r' => 'site/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54871'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fcreate'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fcreate'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'REQUEST_TIME_FLOAT' => 1661201538.1878
+    'REQUEST_TIME' => 1661201538
+]
+2022-08-22 20:52:28 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\base\ErrorException:256] yii\base\ErrorException: Exception 'yii\base\InvalidArgumentException' with message 'Attribute name must contain word characters only.' 
+
+in /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php:2233
+
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(929): yii\helpers\BaseHtml::getAttributeName('Todo Item Name')
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(405): yii\widgets\ActiveField->addAriaAttributes(Array)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(207): yii\widgets\ActiveField->textInput()
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(176): yii\widgets\ActiveField->render()
+#4 /Users/himanshu/basic/views/site/create.php(20): yii\widgets\ActiveField->__toString()
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(347): require('/Users/himanshu...')
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/Users/himanshu...', Array)
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Users/himanshu...', Array, Object(app\controllers\SiteController))
+#8 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\SiteController))
+#9 /Users/himanshu/basic/controllers/SiteController.php(82): yii\base\Controller->render('create', Array)
+#10 [internal function]: app\controllers\SiteController->actionCreate()
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('create', Array)
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/create', Array)
+#15 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#17 {main} in /Users/himanshu/basic/vendor/yiisoft/yii2/base/ErrorHandler.php:384
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception 'yii\\...', '/Users/himanshu...', 384)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/base/ErrorHandler.php(384): trigger_error('Exception 'yii\\...', 256)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(178): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\InvalidArgumentException))
+#3 /Users/himanshu/basic/views/site/create.php(20): yii\widgets\ActiveField->__toString()
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(347): require('/Users/himanshu...')
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/Users/himanshu...', Array)
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Users/himanshu...', Array, Object(app\controllers\SiteController))
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\SiteController))
+#8 /Users/himanshu/basic/controllers/SiteController.php(82): yii\base\Controller->render('create', Array)
+#9 [internal function]: app\controllers\SiteController->actionCreate()
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('create', Array)
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/create', Array)
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#16 {main}
+2022-08-22 20:52:28 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = [
+    'r' => 'site/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54875'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fcreate'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fcreate'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'REQUEST_TIME_FLOAT' => 1661201548.8756
+    'REQUEST_TIME' => 1661201548
+]
+2022-08-22 20:52:38 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\base\ErrorException:256] yii\base\ErrorException: Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Posts::title' 
+
+in /Users/himanshu/basic/vendor/yiisoft/yii2/base/Component.php:154
+
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(296): yii\base\Component->__get('title')
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php(2256): yii\db\BaseActiveRecord->__get('title')
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php(1370): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Posts), 'title')
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php(1426): yii\helpers\BaseHtml::activeInput('text', Object(app\models\Posts), 'title', Array)
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(407): yii\helpers\BaseHtml::activeTextInput(Object(app\models\Posts), 'title', Array)
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(207): yii\widgets\ActiveField->textInput()
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(176): yii\widgets\ActiveField->render()
+#7 /Users/himanshu/basic/views/site/create.php(20): yii\widgets\ActiveField->__toString()
+#8 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(347): require('/Users/himanshu...')
+#9 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/Users/himanshu...', Array)
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Users/himanshu...', Array, Object(app\controllers\SiteController))
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\SiteController))
+#12 /Users/himanshu/basic/controllers/SiteController.php(82): yii\base\Controller->render('create', Array)
+#13 [internal function]: app\controllers\SiteController->actionCreate()
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#16 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('create', Array)
+#17 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/create', Array)
+#18 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#20 {main} in /Users/himanshu/basic/vendor/yiisoft/yii2/base/ErrorHandler.php:384
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Unkn...', '/Users/himanshu...', 384)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/base/ErrorHandler.php(384): trigger_error('Exception (Unkn...', 256)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/widgets/ActiveField.php(178): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 /Users/himanshu/basic/views/site/create.php(20): yii\widgets\ActiveField->__toString()
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(347): require('/Users/himanshu...')
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/Users/himanshu...', Array)
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Users/himanshu...', Array, Object(app\controllers\SiteController))
+#7 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\SiteController))
+#8 /Users/himanshu/basic/controllers/SiteController.php(82): yii\base\Controller->render('create', Array)
+#9 [internal function]: app\controllers\SiteController->actionCreate()
+#10 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#12 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('create', Array)
+#13 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/create', Array)
+#14 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#16 {main}
+2022-08-22 20:52:38 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = [
+    'r' => 'site/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54876'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fcreate'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fcreate'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'REQUEST_TIME_FLOAT' => 1661201558.3586
+    'REQUEST_TIME' => 1661201558
+]
+2022-08-22 21:13:40 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/view in /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php:149
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('view', Array)
+#1 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/view', Array)
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2022-08-22 21:13:40 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = [
+    'r' => 'site/view'
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55166'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fview&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fview&id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'REQUEST_TIME_FLOAT' => 1661202820.3867
+    'REQUEST_TIME' => 1661202820
+]
+2022-08-23 08:51:45 [::1][-][3l89r8fqtrset5h4tutg26uskm][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $posts in /Users/himanshu/basic/controllers/SiteController.php:92
+Stack trace:
+#0 /Users/himanshu/basic/controllers/SiteController.php(92): yii\base\ErrorHandler->handleError(2, 'Undefined varia...', '/Users/himanshu...', 92)
+#1 [internal function]: app\controllers\SiteController->actionDelete('3')
+#2 /Users/himanshu/basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('delete', Array)
+#5 /Users/himanshu/basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/delete', Array)
+#6 /Users/himanshu/basic/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Users/himanshu/basic/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2022-08-23 08:51:45 [::1][-][3l89r8fqtrset5h4tutg26uskm][info][application] $_GET = [
+    'r' => 'site/delete'
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3l89r8fqtrset5h4tutg26uskm'
+    '_csrf' => 'cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'eihncrj'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/himanshu/basic/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '56299'
+    'SERVER_SOFTWARE' => 'PHP 8.1.9 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fdelete&id=3'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/himanshu/basic/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fdelete&id=3'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_COOKIE' => 'PHPSESSID=3l89r8fqtrset5h4tutg26uskm; _csrf=cb7b680ccfb9be9cf53ca1730ba60ca9765d46cfbc645a89e9370319ff9bf91aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vIAO1tgAg8XLQO9X2RZJqJi5Y7IEOfXx%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-IN,en-GB;q=0.9,en;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'REQUEST_TIME_FLOAT' => 1661244705.8734
+    'REQUEST_TIME' => 1661244705
+]
